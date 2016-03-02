@@ -14,6 +14,7 @@
 		DBE0F6C61C86BFB2009A9ED4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DBE0F6C41C86BFB2009A9ED4 /* LaunchScreen.storyboard */; };
 		DBE0F6CE1C86CF73009A9ED4 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBE0F6CD1C86CF73009A9ED4 /* TableViewController.swift */; };
 		DBE0F6D01C86D1DE009A9ED4 /* aaTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBE0F6CF1C86D1DE009A9ED4 /* aaTableViewController.swift */; };
+		DBE0F6D21C86FA3D009A9ED4 /* bbTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBE0F6D11C86FA3D009A9ED4 /* bbTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		DBE0F6C71C86BFB2009A9ED4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DBE0F6CD1C86CF73009A9ED4 /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 		DBE0F6CF1C86D1DE009A9ED4 /* aaTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = aaTableViewController.swift; sourceTree = "<group>"; };
+		DBE0F6D11C86FA3D009A9ED4 /* bbTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = bbTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +68,7 @@
 				DBE0F6C71C86BFB2009A9ED4 /* Info.plist */,
 				DBE0F6CD1C86CF73009A9ED4 /* TableViewController.swift */,
 				DBE0F6CF1C86D1DE009A9ED4 /* aaTableViewController.swift */,
+				DBE0F6D11C86FA3D009A9ED4 /* bbTableViewController.swift */,
 			);
 			path = HoundCi;
 			sourceTree = "<group>";
@@ -142,6 +145,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DBE0F6BE1C86BFB2009A9ED4 /* ViewController.swift in Sources */,
+				DBE0F6D21C86FA3D009A9ED4 /* bbTableViewController.swift in Sources */,
 				DBE0F6CE1C86CF73009A9ED4 /* TableViewController.swift in Sources */,
 				DBE0F6BC1C86BFB2009A9ED4 /* AppDelegate.swift in Sources */,
 				DBE0F6D01C86D1DE009A9ED4 /* aaTableViewController.swift in Sources */,
