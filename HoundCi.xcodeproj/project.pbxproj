@@ -1,0 +1,293 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DBE0F6BC1C86BFB2009A9ED4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBE0F6BB1C86BFB2009A9ED4 /* AppDelegate.swift */; };
+		DBE0F6BE1C86BFB2009A9ED4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBE0F6BD1C86BFB2009A9ED4 /* ViewController.swift */; };
+		DBE0F6C11C86BFB2009A9ED4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DBE0F6BF1C86BFB2009A9ED4 /* Main.storyboard */; };
+		DBE0F6C31C86BFB2009A9ED4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DBE0F6C21C86BFB2009A9ED4 /* Assets.xcassets */; };
+		DBE0F6C61C86BFB2009A9ED4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DBE0F6C41C86BFB2009A9ED4 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DBE0F6B81C86BFB2009A9ED4 /* HoundCi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HoundCi.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DBE0F6BB1C86BFB2009A9ED4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DBE0F6BD1C86BFB2009A9ED4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DBE0F6C01C86BFB2009A9ED4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DBE0F6C21C86BFB2009A9ED4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DBE0F6C51C86BFB2009A9ED4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DBE0F6C71C86BFB2009A9ED4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DBE0F6B51C86BFB2009A9ED4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DBE0F6AF1C86BFB2009A9ED4 = {
+			isa = PBXGroup;
+			children = (
+				DBE0F6BA1C86BFB2009A9ED4 /* HoundCi */,
+				DBE0F6B91C86BFB2009A9ED4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DBE0F6B91C86BFB2009A9ED4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DBE0F6B81C86BFB2009A9ED4 /* HoundCi.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DBE0F6BA1C86BFB2009A9ED4 /* HoundCi */ = {
+			isa = PBXGroup;
+			children = (
+				DBE0F6BB1C86BFB2009A9ED4 /* AppDelegate.swift */,
+				DBE0F6BD1C86BFB2009A9ED4 /* ViewController.swift */,
+				DBE0F6BF1C86BFB2009A9ED4 /* Main.storyboard */,
+				DBE0F6C21C86BFB2009A9ED4 /* Assets.xcassets */,
+				DBE0F6C41C86BFB2009A9ED4 /* LaunchScreen.storyboard */,
+				DBE0F6C71C86BFB2009A9ED4 /* Info.plist */,
+			);
+			path = HoundCi;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DBE0F6B71C86BFB2009A9ED4 /* HoundCi */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DBE0F6CA1C86BFB2009A9ED4 /* Build configuration list for PBXNativeTarget "HoundCi" */;
+			buildPhases = (
+				DBE0F6B41C86BFB2009A9ED4 /* Sources */,
+				DBE0F6B51C86BFB2009A9ED4 /* Frameworks */,
+				DBE0F6B61C86BFB2009A9ED4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HoundCi;
+			productName = HoundCi;
+			productReference = DBE0F6B81C86BFB2009A9ED4 /* HoundCi.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DBE0F6B01C86BFB2009A9ED4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = HanedaKentarou;
+				TargetAttributes = {
+					DBE0F6B71C86BFB2009A9ED4 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = DBE0F6B31C86BFB2009A9ED4 /* Build configuration list for PBXProject "HoundCi" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DBE0F6AF1C86BFB2009A9ED4;
+			productRefGroup = DBE0F6B91C86BFB2009A9ED4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DBE0F6B71C86BFB2009A9ED4 /* HoundCi */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DBE0F6B61C86BFB2009A9ED4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBE0F6C61C86BFB2009A9ED4 /* LaunchScreen.storyboard in Resources */,
+				DBE0F6C31C86BFB2009A9ED4 /* Assets.xcassets in Resources */,
+				DBE0F6C11C86BFB2009A9ED4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DBE0F6B41C86BFB2009A9ED4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBE0F6BE1C86BFB2009A9ED4 /* ViewController.swift in Sources */,
+				DBE0F6BC1C86BFB2009A9ED4 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DBE0F6BF1C86BFB2009A9ED4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DBE0F6C01C86BFB2009A9ED4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DBE0F6C41C86BFB2009A9ED4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DBE0F6C51C86BFB2009A9ED4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DBE0F6C81C86BFB2009A9ED4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DBE0F6C91C86BFB2009A9ED4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DBE0F6CB1C86BFB2009A9ED4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HoundCi/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jp.co.sample.HoundCi;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DBE0F6CC1C86BFB2009A9ED4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HoundCi/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jp.co.sample.HoundCi;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DBE0F6B31C86BFB2009A9ED4 /* Build configuration list for PBXProject "HoundCi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DBE0F6C81C86BFB2009A9ED4 /* Debug */,
+				DBE0F6C91C86BFB2009A9ED4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DBE0F6CA1C86BFB2009A9ED4 /* Build configuration list for PBXNativeTarget "HoundCi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DBE0F6CB1C86BFB2009A9ED4 /* Debug */,
+				DBE0F6CC1C86BFB2009A9ED4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DBE0F6B01C86BFB2009A9ED4 /* Project object */;
+}
