@@ -1,5 +1,3 @@
-disabled_rules: # 適用したくないチェック項目を記述
-  - line_length
 included: # Lint対象のファイルのあるパスを記述、通常はプロジェクト名になると思います
   - HoundCi
 excluded: # Lint対象から外すファイルのあるパスを記述、CocoaPodsやCarthage
